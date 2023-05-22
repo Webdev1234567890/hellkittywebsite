@@ -2049,3 +2049,32 @@ ol:last-child {
 .page-main {
     overflow: hidden
 }
+
+.tokenomics .content-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .text-box {
+    flex: 1;
+  }
+  
+  .section-image {
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @media (min-width: 768px) {
+    .text-box {
+      margin-right: 50px;
+    }
+  
+    .section-image {
+      margin-left: 50px;
+      margin-right: 0;
+    }
+  }
+  
